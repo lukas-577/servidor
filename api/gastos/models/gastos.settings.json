@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gastos",
+  "info": {
+    "name": "gastos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "descripcion": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "biginteger"
+    },
+    "bencina": {
+      "type": "biginteger"
+    }
+  }
+}

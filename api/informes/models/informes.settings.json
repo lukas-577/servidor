@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informes",
+  "info": {
+    "name": "informes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "descripcion_informe": {
+      "type": "text"
+    },
+    "ganancia": {
+      "type": "biginteger"
+    }
+  }
+}

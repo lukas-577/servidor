@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vehiculos",
+  "info": {
+    "name": "vehiculos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "patente": {
+      "type": "string",
+      "required": true
+    },
+    "modelo": {
+      "type": "string"
+    },
+    "marca": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "anio": {
+      "type": "biginteger"
+    },
+    "viajes": {
+      "collection": "viajes",
+      "via": "vehiculo"
+    }
+  }
+}
